@@ -1,0 +1,361 @@
+*{margin:0;padding:0;}
+
+/* Background 5 */
+.about-us {
+    padding: 70px 7px;
+}
+.about-us .row:first-child {
+    font-size: 17px;
+}
+.introduce {
+    width: 74%;
+    margin-left: 10px;
+    float: left;
+}
+.introduce h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.introduce p {
+    font-size: 12px;
+}
+.img-about {
+    margin: auto;
+}
+.icon {
+    float: left;
+    -webkit-background-clip: text !important;
+    color: white;
+    margin-top: 20px;
+}
+/* Background 3 */
+.bg5, .bg3 {
+    background: #181818;
+    color: #ccc;
+}
+    .bg3 .carousel img {
+        /*height: 400px !important;*/
+    }
+    .bg3 .list-group-item a {
+        display: block;
+        padding: 13px 0;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: white;
+    }
+    .bg3 .list-group-item a:hover, .bg3 .list-group-item a:focus {
+        text-decoration: none;
+    }
+    .bg3 .list-group-item:nth-child(odd) > a {
+        background: url('http://denlonghoian.vn/asset/Images/Header.png');
+    }
+    .bg3 .list-group-item:nth-child(even) > a {
+        background: #c63300;
+    }
+    .bg3 .list-group-item {
+        border-radius: 0px;
+        padding: 0;
+        border: none;
+    }
+.bg3 {
+    padding: 60px 0;
+}
+    .projects-carousel {
+        margin: 0 0 30px 0;
+        padding: 0;
+    }
+.projects {
+    width: 260px;
+    padding: 0;
+    margin-left: 32px;
+}
+/* Background 4 */
+.bg4 {
+    position: relative;
+}
+.festival {width: 300px;margin: 30px auto 20px auto;}
+.content > p {
+    text-align: justify;
+    color: #616161;
+    font-size: 15px;
+}
+.content {
+    /*border: 1px solid #ccc;*/
+    padding: 0 25px 25px 25px;
+}
+.bg4 .row:last-child img {
+}
+/* Background 2 */
+.product-info button, .content button {
+    font-size: 13px;
+    color: #e43b00;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-top: 15px;
+    border-color: #e43b00;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+.product-info p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.product-info h4, .festival h4 {
+    text-transform: uppercase;
+    color: #e43b00;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+    font-size: 19px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.66);
+}
+/* Background 1 */
+.carousel-indicators > .active {
+    background: #e43b00;
+}
+.carousel-indicators > li {
+    border-color: #e43b00;
+    margin: 0 7px !important;
+}
+.bg1 .row > div:nth-child(2) {
+    padding: 0 0;
+}
+.our-product > p, .our-projects > p {
+    padding: 0 300px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.decor {
+    margin: auto;
+    margin-bottom: 15px;
+}
+span.glyphicon {
+    background: #e43b00;
+    border-radius: 50%;
+    font-size: 18px !important;
+    line-height: 30px;
+    width: 30px;
+}
+.slide img {
+    height: 365px !important;
+    width: 100%;
+}
+.panel-heading {
+    padding: 0;
+}
+.panel-title a {
+    color: white !important;
+    display: block;
+    padding: 11.43px 15px;
+    background: #e43b00;
+    border-bottom: 1px solid #c63300;
+}
+.panel-title a:hover, .panel-title a:focus {
+    text-decoration: none;
+}
+
+div#accordion {
+    color: white;
+    margin: 0;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.46);
+}
+.panel-group .panel + .panel {
+    margin: 0;
+}
+ul.list-group {
+    margin: 0;
+}
+.panel-body {
+    padding: 0;
+    border-top: none !important;
+}
+.bg1 .list-group-item a {
+    border: none;
+    background: #c63300;
+    border-radius: 0;
+    border-bottom: 1px solid #e43b00;
+    display: block;
+    padding: 10px 15px;
+    color: white;
+}
+.bg1 .list-group-item a:hover,Â .bg1 .list-group-item a:focus {
+    text-decoration: none;
+}
+.bg1 .list-group-item {
+    padding: 0;
+    border: none;
+    margin-bottom: 0px;
+}
+.panel-group .panel {
+    border-radius: 0;
+    border: none;
+}
+.bg1, .bg2, .bg3, .bg4, .bg5 {
+    margin-top: 40px;
+}
+.collapse-group {
+    padding: 0;
+    width: 260px;
+    margin: 0px 32px 0 0;
+}
+/*              @media              */
+@media (max-width: 768px) {
+    * {}
+
+.bg4 .col-xs-12.col-sm-6.col-md-4.col-lg-4.text-center {
+    padding: 0;
+}
+
+main {
+    margin-top: 125px !important;
+}
+
+.list-group-item a {
+    display: none !important;
+}
+
+.container {
+    width: 100%;
+}
+    .bg2 .col-xs-12.col-sm-6.col-md-3.col-lg-3 {
+        padding: 0;
+    }
+    .projects {
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+    }
+    .bg3 ul.list-group.text-center {
+        margin-top: 30px;
+    }
+    .introduce p {
+        font-size: 13px;
+    }
+    .introduce h3 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    .bg5 .row {
+        margin: 0;
+    }
+    .introduce {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .icon {
+        float: none;
+        top: 0;
+        margin: 20px auto 0px auto;
+    }
+    .product-info p {
+        padding: 0 15%;
+    }
+    .bg2 .row img {
+        margin: auto;
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .our-product > p, .our-projects > p {
+        padding: 0px 30px;
+        margin-bottom: 0;
+    }
+    .our-projects > p {
+        margin-bottom: 30px;
+    }
+    .bg1 .row > div:nth-child(2) {
+        margin-top: 0;
+        padding: 0;
+    }
+    .slide {
+    }    
+    .collapse-group {
+        width: 100% !important;
+    }    
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    * {}
+    .product-info button {
+        margin-bottom: 30px;
+    }
+    .projects {
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+    }
+    .projects-carousel {
+        padding-left: 15px;
+    }
+    .bg3 ul.list-group.text-center {
+        margin-top: 30px;
+    }
+    .about-us {
+        padding: 30px 0;
+    }
+    .bg5 .row {
+        margin-right: 0;
+    }
+    .our-product > p, .our-projects > p {
+        padding: 0 120px;
+    }
+    .bg1 .row > div:nth-child(2) {
+        padding: 0 15px;
+    }
+    .slide-images {
+        padding: 0;
+    }
+    .collapse-group {
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }    
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    * {}
+    .projects-carousel {
+        width: 100%;
+        padding: 0;
+    }
+    .projects {
+        margin-top: 20px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .introduce {
+        width: 65%;
+    }
+    .collapse-group {
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+    .our-product > p {
+        padding: 0 210px;
+    }
+    .bg1 .col-md-9 {
+        width: 100%;
+    }
+}
+
+main {
+    margin: 165px 0 0 0;
+    font-family: 'Playfair Display', serif;
+}
+h2 {
+    color: #e43b00;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: white;
+    background: #e43b00;
+    border-color: #e43b00;
+}
+

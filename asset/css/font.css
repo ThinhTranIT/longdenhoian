@@ -1,0 +1,12 @@
+@font-face {
+    font-family: mys;
+    src: url(http://denlonghoian.vn/asset/font/SFUAngieBold.TTF);
+}
+
+.product p {
+    font-size: 25px;
+    font-family: mys;
+}
+.product .new-price {
+    font-family: mys;
+}
